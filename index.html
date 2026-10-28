@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simon Game</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+        rel="stylesheet"
+    >
+
+    <!-- Original stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="level-title">Press A Key to Start</h1>
+
+    <div class="container">
+
+        <div class="row">
+            <button id="green" class="btn green" type="button"></button>
+            <button id="red" class="btn red" type="button"></button>
+        </div>
+
+        <div class="row">
+            <button id="yellow" class="btn yellow" type="button"></button>
+            <button id="blue" class="btn blue" type="button"></button>
+        </div>
+
+    </div>
+
+    <!-- jQuery must load before game.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Game logic -->
+    <script src="game.js"></script>
+
+</body>
+</html>
